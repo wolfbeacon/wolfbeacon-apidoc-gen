@@ -15,14 +15,10 @@ RUN git clone https://github.com/wolfbeacon/wolfbeacon-core-api
 # Cloning hackalist API
 RUN git clone https://github.com/wolfbeacon/wolfbeacon-hackalist-api
 
-RUN mkdir /src/
-ADD . /src/
-WORKDIR /src/
-
 # Generate Docs
 RUN apidoc \
-	-i wolfbeacon-core-api/api/views/ \
-	-i wolfbeacon-hackalist-api/src/main/java/com/wolfbeacon/api/
+        -i wolfbeacon-core-api/api/views/ \
+        -i wolfbeacon-hackalist-api/src/main/java/com/wolfbeacon/api/
 
 # Serve static docs over http-server
 CMD ["http-server", "./doc"]
