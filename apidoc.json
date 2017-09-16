@@ -1,9 +1,9 @@
 {
   "name": "WolfBeacon API Documentation",
   "version": "0.0.1",
-  "description": "Note: Auth0 Access Tokens Required for all resource endpoints.",
+  "description": "A collection of all the endpoints exposed by the WolfBeacon API.",
   "title": "WolfBeacon API Docs",
-  "url": "https://wolfbeacon.com/api",
+  "url": "https://api.wolfbeacon.com/",
   "order": [
     "Headers",
     "Hackathons",
