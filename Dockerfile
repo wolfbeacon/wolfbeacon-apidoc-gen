@@ -2,7 +2,7 @@ FROM node:alpine
 
 # Install Dependencies
 RUN apk update && apk upgrade && \
-    apk add --no-cache git
+	apk add --no-cache git
 
 RUN npm install apidoc -g && \
 	npm install http-server -g
