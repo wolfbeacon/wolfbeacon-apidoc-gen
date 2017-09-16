@@ -7,6 +7,11 @@ RUN apk update && apk upgrade && \
 RUN npm install apidoc -g && \
 	npm install http-server -g
 
+# Create work directory
+RUN mkdir /src/
+WORKDIR /src/
+ADD . /src/
+
 # Clone Services
 RUN git clone https://github.com/wolfbeacon/wolfbeacon-core-api && \
 	git clone https://github.com/wolfbeacon/wolfbeacon-hackalist-api
