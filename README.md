@@ -9,4 +9,4 @@ This service aggregates API Documentation written in the form of [apidoc](http:/
 * `sudo docker build -t wolfbeacon-apidoc-gen .`
 * `sudo docker run -p 3000:3000 wolfbeacon-apidoc-gen` 
 
-Following this, the docs should be visible at *<your-host>:3000*
+Following this, the docs should be visible at *your-host:3000*
