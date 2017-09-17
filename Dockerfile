@@ -23,5 +23,5 @@ RUN apidoc \
     -i wolfbeacon-core-api/api/views/ \
     -i wolfbeacon-hackalist-api/src/main/java/com/wolfbeacon/api/
 
-# Serve static docs over http-server
+# Serve static docs over server
 CMD ["node", "server.js"]
