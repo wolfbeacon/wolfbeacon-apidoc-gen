@@ -9,7 +9,7 @@ RUN mkdir /src/
 WORKDIR /src/
 ADD . /src/
 
-# Install dependencies
+# Install npm dependencies
 RUN npm install apidoc -g && \
 	npm install express --save && \
 	npm install serve-static --save
