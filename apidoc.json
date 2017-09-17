@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A collection of all the endpoints exposed by the WolfBeacon API.",
   "title": "WolfBeacon API Docs",
-  "url": "https://api.wolfbeacon.com/",
+  "url": "https://api.wolfbeacon.com",
   "order": [
     "Headers",
     "Hackathons",
