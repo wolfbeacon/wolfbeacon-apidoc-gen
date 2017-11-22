@@ -1,7 +1,7 @@
 {
   "name": "WolfBeacon API Documentation",
   "version": "1.0.0",
-  "description": "API endpoints exposed by the WolfBeacon API. \n <b>Important Note</b>: Trailing Slashes '\/' are mandatory for all requests.",
+  "description": "WolfBeacon API Endpoints for Mobile and Analytics. \n <b>Important Note</b>: Trailing Slashes '\/' are mandatory for all requests.",
   "title": "WolfBeacon API Docs",
   "url": "https://api.wolfbeacon.com/v1",
   "order": [
