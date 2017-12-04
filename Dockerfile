@@ -10,7 +10,7 @@ WORKDIR /src/
 ADD . /src/
 
 # Install npm dependencies
-RUN npm install apidoc -g && \
+RUN npm install -g apidoc && \
 	npm install express --save && \
 	npm install serve-static --save
 
@@ -21,7 +21,9 @@ RUN git clone https://github.com/wolfbeacon/wolfbeacon-core-api && \
 # Generate docs
 RUN apidoc \
     -i wolfbeacon-core-api/api/views/ \
-    -i wolfbeacon-hackalist-api/src/main/java/com/wolfbeacon/api/
+    -i wolfbeacon-hackalist-api//src/main/kotlin/wolfbeacon/hackalist/
+
+EXPOSE 3000
 
 # Serve static docs over server
 CMD ["node", "server.js"]

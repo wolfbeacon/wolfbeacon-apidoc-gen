@@ -1,3 +1,4 @@
-/node_modules
-/wolfbeacon-*
-/doc*
+wolfbeacon-hackalist-api/
+wolfbeacon-core-api/
+node_modules/
+doc/
