@@ -21,7 +21,7 @@ RUN git clone https://github.com/wolfbeacon/wolfbeacon-core-api && \
 # Generate docs
 RUN apidoc \
     -i wolfbeacon-core-api/api/views/ \
-    -i wolfbeacon-hackalist-api//src/main/kotlin/wolfbeacon/hackalist/
+    -i wolfbeacon-hackalist-api/src/main/kotlin/wolfbeacon/hackalist/
 
 EXPOSE 3000
 
