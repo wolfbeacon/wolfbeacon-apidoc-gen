@@ -1,7 +1,7 @@
 {
   "name": "WolfBeacon API Documentation",
   "version": "1.0.0",
-  "description": "WolfBeacon API Endpoints for Mobile and Analytics \n API Integration Docs - <a href=\"https://wolfbeacon.atlassian.net/wiki/spaces/WG/pages/283181225/WolfBeacon+API+Integration\"> http://bit.ly/2j7csxS</a> \n <b>Important Note</b>: Trailing Slashes '\/' are mandatory for all requests.",
+  "description": "WolfBeacon API Endpoints for Mobile and Analytics. \n To be used following API Integration Docs Guide accessible <a href=\"https://wolfbeacon.atlassian.net/wiki/spaces/WG/pages/283181225/WolfBeacon+API+Integration\"> HERE</a>. \n <b>Important Note</b>: Trailing Slashes '\/' are mandatory for all requests.",
   "title": "WolfBeacon API Docs",
   "url": "https://api.wolfbeacon.com/v1",
   "order": [
